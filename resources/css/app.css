@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .error {
+        @apply text-xs text-red-500;
+    }
+}
